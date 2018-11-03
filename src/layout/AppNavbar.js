@@ -15,7 +15,7 @@ class AppNavbar extends Component {
             data-toggle="collapse"
             data-target="#navbarMain"
           >
-            <span className="navbar-toggle-icon"><i class="fas fa-bars"></i></span>
+            <span className="navbar-toggle-icon"><i className="fas fa-bars"></i></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarMain">
             <ul className="navbar-nav mr-auto">

@@ -5,6 +5,7 @@ import store from './store';
 import './App.css';
 import AppNavbar from './layout/AppNavbar';
 import Dashboard from './layout/Dashboard';
+import AddClient from './clients/AddClient';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/" component={ Dashboard } />
+                <Route exact path="/client/add" component={ AddClient } />
               </Switch>
             </div>
           </div>

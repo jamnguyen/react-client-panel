@@ -48,12 +48,12 @@ class Clients extends Component {
         {/* Title */}
         <div className="row mb-4">
           <div className="col-md-6">
-            <h1><i className="fas fa-users"></i> Clients</h1>
+            <h1 className="my-0"><i className="fas fa-users"></i> Clients</h1>
           </div>
           <div className="col-md-6 d-flex align-items-center justify-content-end">
             { clients ? (
-              <h4>
-                Total Owed: <span className="text-primary">${ totalOwed.toFixed(2) }</span>
+              <h4 className="my-0">
+                Total Owed: <span className="text-primary font-weight-bold">${ totalOwed.toFixed(2) }</span>
               </h4>
             ) : null}
           </div>

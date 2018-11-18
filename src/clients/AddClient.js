@@ -36,7 +36,7 @@ class AddClient extends Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <div className="row">
           <div className="col-md-6">
             <Link to="/" className="btn btn-link">
@@ -108,7 +108,7 @@ class AddClient extends Component {
             </form>
           </div>
         </div>
-      </div>
+      </React.Fragment>
     )
   }
 }
